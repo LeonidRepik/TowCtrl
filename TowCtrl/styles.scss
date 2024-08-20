@@ -1,0 +1,31 @@
+@import 'SASS/abstracts/functions';
+@import 'SASS/abstracts/mixins';
+@import 'SASS/abstracts/variables';
+
+@import 'SASS/base/animations';
+@import 'SASS/base/base';
+@import 'SASS/base/typography';
+@import 'SASS/base/utilities';
+
+@import 'SASS/components/buttons';
+@import 'SASS/components/logoContainer';
+@import 'SASS/components/container';
+@import 'SASS/components/forms';
+@import 'SASS/layout/loginPage';
+@import 'SASS/layout/offlinePage';
+@import 'SASS/layout/mainPage';
+@import 'SASS/layout/incidentPageClient';
+@import 'SASS/layout/driverMainPage';
+@import 'SASS/layout/driverViewCase';
+@import 'SASS/components/spinner';
+
+#map {
+	height: 100%;
+	// height: 60vh;
+}
+
+// Leaflet Routing Machine Plugin CSS
+.leaflet-routing-container,
+.leaflet-routing-error {
+	display: none;
+}
